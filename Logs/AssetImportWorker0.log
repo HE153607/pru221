@@ -15,7 +15,7 @@ E:/FPTU/ky8/PRU221m/Project1/pru231
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57898
+49317
 Successfully changed project path to: E:/FPTU/ky8/PRU221m/Project1/pru231
 E:/FPTU/ky8/PRU221m/Project1/pru231
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ E:/FPTU/ky8/PRU221m/Project1/pru231
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5836] Host "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 1102427780 [EditorId] 1102427780 [Version] 1048832 [Id] WindowsEditor(7,QuangThai) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13436] Host "[IP] 192.168.0.3 [Port] 0 [Flags] 2 [Guid] 2113188105 [EditorId] 2113188105 [Version] 1048832 [Id] WindowsEditor(7,QuangThai) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5836] Host "[IP] 192.168.0.5 [Port] 0 [Flags] 2 [Guid] 1102427780 [EditorId] 1102427780 [Version] 1048832 [Id] WindowsEditor(7,QuangThai) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13436] Host "[IP] 192.168.0.3 [Port] 0 [Flags] 2 [Guid] 2113188105 [EditorId] 2113188105 [Version] 1048832 [Id] WindowsEditor(7,QuangThai) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 4.91 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.5f1 (551d45108343)
 [Subsystems] Discovering subsystems at path E:/Programs Files/Unity/Editor/2022.2.5f1/Editor/Data/Resources/UnitySubsystems
@@ -67,41 +67,41 @@ Initialize mono
 Mono path[0] = 'E:/Programs Files/Unity/Editor/2022.2.5f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Programs Files/Unity/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Programs Files/Unity/Editor/2022.2.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Programs Files/Unity/Editor/2022.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002530 seconds.
-- Loaded All Assemblies, in  0.297 seconds
+Registered in 0.002678 seconds.
+- Loaded All Assemblies, in  0.298 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.271 seconds
+- Finished resetting the current domain, in  0.280 seconds
 Domain Reload Profiling:
-	ReloadAssembly (176ms)
-		BeginReloadAssembly (71ms)
+	ReloadAssembly (170ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (70ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (119ms)
-				TypeCache.Initialize (118ms)
-					TypeCache.ScanAssembly (116ms)
+			SetupTypeCache (125ms)
+				TypeCache.Initialize (124ms)
+					TypeCache.ScanAssembly (123ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (210ms)
+			SetupLoadedEditorAssemblies (220ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (8ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,48 +109,48 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.745 seconds
-Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.151 seconds
+Refreshing native plugins compatible for Editor in 5.45 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.508 seconds
+- Finished resetting the current domain, in  1.069 seconds
 Domain Reload Profiling:
-	ReloadAssembly (197ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (286ms)
+		BeginReloadAssembly (147ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		LoadAllAssembliesAndSetupDomain (547ms)
-			LoadAssemblies (199ms)
+			CreateAndSetChildDomain (27ms)
+		LoadAllAssembliesAndSetupDomain (866ms)
+			LoadAssemblies (301ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (393ms)
-				TypeCache.Initialize (228ms)
-					TypeCache.ScanAssembly (224ms)
-				ResolveRequiredComponents (3ms)
+			SetupTypeCache (630ms)
+				TypeCache.Initialize (258ms)
+					TypeCache.ScanAssembly (252ms)
+				ResolveRequiredComponents (9ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (342ms)
+			SetupLoadedEditorAssemblies (723ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (5ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (9ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (239ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (539ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 5.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2464 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (68.2 KB). Loaded Objects now: 2932.
+Unloading 32 unused Assets / (68.3 KB). Loaded Objects now: 2932.
 Memory consumption went from 395.8 MB to 395.7 MB.
-Total: 3.753600 ms (FindLiveObjects: 0.403700 ms CreateObjectMapping: 0.087300 ms MarkObjects: 3.104600 ms  DeleteObjects: 0.155900 ms)
+Total: 5.300300 ms (FindLiveObjects: 0.401400 ms CreateObjectMapping: 0.327300 ms MarkObjects: 4.400000 ms  DeleteObjects: 0.169900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -166,56 +166,120 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 125409.870005 seconds.
-  path: Assets/Scripts/Enemy/EnemyHealth.cs
-  artifactKey: Guid(8c3ae7c839ef9c3499cf0c7789593b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemy/EnemyHealth.cs using Guid(8c3ae7c839ef9c3499cf0c7789593b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d61d66cbbacb0e008ddc505381dea2') in 0.002032 seconds 
+  Time since last request: 221939.284008 seconds.
+  path: Assets/Scripts/Turrets/TurretUpgrade.cs
+  artifactKey: Guid(161f7167a3a0cbf4ebcc7d2e239d411f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Turrets/TurretUpgrade.cs using Guid(161f7167a3a0cbf4ebcc7d2e239d411f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ef7946b40c30b36c04045b7206259f') in 0.001910 seconds 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
+Received Import Request.
+  Time since last request: 25.472602 seconds.
+  path: Assets/Prefabs/AchievementCard.prefab
+  artifactKey: Guid(2630d7578165ec74cbc228ef5110bbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AchievementCard.prefab using Guid(2630d7578165ec74cbc228ef5110bbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bece09a0919d144965491f6a57d98aa5') in 0.074941 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/HealthCanvas.prefab
+  artifactKey: Guid(fb659a9bec055124fab38ba6e61b05b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HealthCanvas.prefab using Guid(fb659a9bec055124fab38ba6e61b05b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d408c9d83c596378ea9dac2b7276d24') in 0.003707 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Prefabs/Rock3.prefab
+  artifactKey: Guid(6d54ca310629c2249be171e267cb8ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rock3.prefab using Guid(6d54ca310629c2249be171e267cb8ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682156992f1df3a9ed09144beff82502') in 0.083032 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Prefabs/TurretButton.prefab
+  artifactKey: Guid(4890eb32729dd10499d1e36473cc3bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TurretButton.prefab using Guid(4890eb32729dd10499d1e36473cc3bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69934d9072c853f019c4f3e1470b6bc7') in 0.026089 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 2.088793 seconds.
+  path: Assets/Prefabs/Turrets
+  artifactKey: Guid(906742af514a45d49b6cf5522a571e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets using Guid(906742af514a45d49b6cf5522a571e9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc2076baab370ab38f715db71bad118') in 0.000915 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.063548 seconds.
+  path: Assets/Prefabs/Turrets/Dual_machine_turret .prefab
+  artifactKey: Guid(92da836ff02548e4fa261846fa408aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Dual_machine_turret .prefab using Guid(92da836ff02548e4fa261846fa408aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1ce29a6d23916726cc75253abd189c') in 0.023250 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Prefabs/Turrets/Tank_Turret.prefab
+  artifactKey: Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Tank_Turret.prefab using Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3ef2a1ce2e22397d376a8af7357eda') in 0.150510 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Turrets/Two_missile_turret .prefab
+  artifactKey: Guid(a9a1252d98b75e04d9c253a780bb16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Two_missile_turret .prefab using Guid(a9a1252d98b75e04d9c253a780bb16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263f5cb73d51c8047bb460bf2ef9717c') in 0.022639 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.955 seconds
-Refreshing native plugins compatible for Editor in 4.14 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.851 seconds
+Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.843 seconds
+- Finished resetting the current domain, in  1.032 seconds
 Domain Reload Profiling:
-	ReloadAssembly (342ms)
-		BeginReloadAssembly (274ms)
+	ReloadAssembly (318ms)
+		BeginReloadAssembly (252ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (40ms)
-		LoadAllAssembliesAndSetupDomain (613ms)
-			LoadAssemblies (217ms)
+		LoadAllAssembliesAndSetupDomain (533ms)
+			LoadAssemblies (218ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (444ms)
-				TypeCache.Initialize (225ms)
-					TypeCache.ScanAssembly (220ms)
+			SetupTypeCache (364ms)
+				TypeCache.Initialize (204ms)
+					TypeCache.ScanAssembly (199ms)
 				ResolveRequiredComponents (3ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (337ms)
+			SetupLoadedEditorAssemblies (572ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (236ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (403ms)
+				ProcessInitializeOnLoadMethodAttributes (88ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (102ms)
+Refreshing native plugins compatible for Editor in 2.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2439 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (34.9 KB). Loaded Objects now: 2935.
-Memory consumption went from 389.7 MB to 389.7 MB.
-Total: 3.785100 ms (FindLiveObjects: 0.313300 ms CreateObjectMapping: 0.143300 ms MarkObjects: 3.271900 ms  DeleteObjects: 0.054600 ms)
+Unloading 21 unused Assets / (35.0 KB). Loaded Objects now: 2944.
+Memory consumption went from 394.4 MB to 394.4 MB.
+Total: 4.054800 ms (FindLiveObjects: 0.430600 ms CreateObjectMapping: 0.106200 ms MarkObjects: 3.458100 ms  DeleteObjects: 0.058800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -233,47 +297,297 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.900 seconds
-Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.920 seconds
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.788 seconds
+- Finished resetting the current domain, in  0.857 seconds
 Domain Reload Profiling:
-	ReloadAssembly (357ms)
-		BeginReloadAssembly (280ms)
+	ReloadAssembly (370ms)
+		BeginReloadAssembly (289ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (43ms)
-		LoadAllAssembliesAndSetupDomain (543ms)
-			LoadAssemblies (227ms)
+		LoadAllAssembliesAndSetupDomain (550ms)
+			LoadAssemblies (212ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (370ms)
-				TypeCache.Initialize (217ms)
+			SetupTypeCache (382ms)
+				TypeCache.Initialize (218ms)
 					TypeCache.ScanAssembly (213ms)
 				ResolveRequiredComponents (3ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (389ms)
+			SetupLoadedEditorAssemblies (404ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (7ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (276ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+			AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2440 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (42.2 KB). Loaded Objects now: 2938.
-Memory consumption went from 389.9 MB to 389.9 MB.
-Total: 4.392000 ms (FindLiveObjects: 0.368500 ms CreateObjectMapping: 0.228600 ms MarkObjects: 3.731200 ms  DeleteObjects: 0.062500 ms)
+Unloading 21 unused Assets / (42.2 KB). Loaded Objects now: 2947.
+Memory consumption went from 394.7 MB to 394.7 MB.
+Total: 3.886000 ms (FindLiveObjects: 0.279800 ms CreateObjectMapping: 0.086800 ms MarkObjects: 3.460600 ms  DeleteObjects: 0.057100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 181.685371 seconds.
+  path: Assets/Prefabs/Turrets/Two_missile_turret .prefab
+  artifactKey: Guid(a9a1252d98b75e04d9c253a780bb16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Two_missile_turret .prefab using Guid(a9a1252d98b75e04d9c253a780bb16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff2b78d709fd60fb235a3a7041d17f3e') in 0.078845 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.068790 seconds.
+  path: Assets/Prefabs/Turrets/Two_missile_turret .prefab
+  artifactKey: Guid(a9a1252d98b75e04d9c253a780bb16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Two_missile_turret .prefab using Guid(a9a1252d98b75e04d9c253a780bb16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905440f9ad0551a0047a5195a54139ca') in 0.009432 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 9.538252 seconds.
+  path: Assets/Prefabs/Turrets/Two_missile_turret .prefab
+  artifactKey: Guid(a9a1252d98b75e04d9c253a780bb16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Two_missile_turret .prefab using Guid(a9a1252d98b75e04d9c253a780bb16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098f68d97105503e5a78233523071828') in 0.015010 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 6.160877 seconds.
+  path: Assets/Prefabs/Turrets/Two_missile_turret .prefab
+  artifactKey: Guid(a9a1252d98b75e04d9c253a780bb16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Two_missile_turret .prefab using Guid(a9a1252d98b75e04d9c253a780bb16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2fec61d7e6877549123959e000d438') in 0.009402 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 8.132172 seconds.
+  path: Assets/Prefabs/Turrets/Two_missile_turret .prefab
+  artifactKey: Guid(a9a1252d98b75e04d9c253a780bb16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Two_missile_turret .prefab using Guid(a9a1252d98b75e04d9c253a780bb16ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021e03eba9c027be32dc6bd72dc432f2') in 0.012352 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 13.765372 seconds.
+  path: Assets/Prefabs/Turrets/Single_machine_turret .prefab
+  artifactKey: Guid(1ba0ef99acab54549bac389557917280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Single_machine_turret .prefab using Guid(1ba0ef99acab54549bac389557917280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6e23b7bcf3383a879e7977029f6577') in 0.010496 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 4.613108 seconds.
+  path: Assets/Prefabs/Turrets/Single_machine_turret .prefab
+  artifactKey: Guid(1ba0ef99acab54549bac389557917280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Single_machine_turret .prefab using Guid(1ba0ef99acab54549bac389557917280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1005826cbc4f3ccf68c461c6832fb707') in 0.010547 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 1.800913 seconds.
+  path: Assets/Prefabs/Turrets/Single_machine_turret .prefab
+  artifactKey: Guid(1ba0ef99acab54549bac389557917280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Single_machine_turret .prefab using Guid(1ba0ef99acab54549bac389557917280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06557d2cd7bcc622dd9038b864d0f9e3') in 0.008785 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 4.225323 seconds.
+  path: Assets/Prefabs/Turrets/Single_machine_turret .prefab
+  artifactKey: Guid(1ba0ef99acab54549bac389557917280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Single_machine_turret .prefab using Guid(1ba0ef99acab54549bac389557917280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c507112e29ef0a0ab22c5ced9ac18b') in 0.009812 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 8.323383 seconds.
+  path: Assets/Prefabs/Turrets/Single_machine_turret .prefab
+  artifactKey: Guid(1ba0ef99acab54549bac389557917280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Single_machine_turret .prefab using Guid(1ba0ef99acab54549bac389557917280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02370d7262e6f993574aa1f21fac56a1') in 0.012073 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 4.417754 seconds.
+  path: Assets/Prefabs/Turrets/Tank_Turret.prefab
+  artifactKey: Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Tank_Turret.prefab using Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1346a3a91ee6a1454996753284dd25') in 0.012814 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.184702 seconds.
+  path: Assets/Prefabs/Turrets/Tank_Turret.prefab
+  artifactKey: Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Tank_Turret.prefab using Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a2189a75f9bf084f5692941cef9197') in 0.009195 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 4.625908 seconds.
+  path: Assets/Prefabs/Turrets/Tank_Turret.prefab
+  artifactKey: Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Tank_Turret.prefab using Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751bfdc409935229e539818fb7f29d09') in 0.013301 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 5.440188 seconds.
+  path: Assets/Prefabs/Turrets/Tank_Turret.prefab
+  artifactKey: Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Tank_Turret.prefab using Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975a45988720ce2160f1e4a8f201ac78') in 0.010559 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 1.407711 seconds.
+  path: Assets/Prefabs/Turrets/Tank_Turret.prefab
+  artifactKey: Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Tank_Turret.prefab using Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e02db04803e1b1c463884d059cb4ba') in 0.009426 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 1.807447 seconds.
+  path: Assets/Prefabs/Turrets/Tank_Turret.prefab
+  artifactKey: Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Tank_Turret.prefab using Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92890dc7d4cba0ffd920b14299e59108') in 0.009267 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 1.001645 seconds.
+  path: Assets/Prefabs/Turrets/Tank_Turret.prefab
+  artifactKey: Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Tank_Turret.prefab using Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eae4da2ee6a794fb6160a0e3eed7b59') in 0.009779 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 2.616424 seconds.
+  path: Assets/Prefabs/Turrets/Tank_Turret.prefab
+  artifactKey: Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Tank_Turret.prefab using Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb6fa0981a8b72594cf7b0034d6d2e2') in 0.015777 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 2.002096 seconds.
+  path: Assets/Prefabs/Turrets/Tank_Turret.prefab
+  artifactKey: Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Tank_Turret.prefab using Guid(842ae3eaf3d15cb4c88ea20235ce6283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a5c95a5b59356c4e6fde1566148e3d9') in 0.013519 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 8.899109 seconds.
+  path: Assets/Prefabs/Turrets/Ultra_missile_turret .prefab
+  artifactKey: Guid(0daf28ee2694cb84994610a78348c1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Ultra_missile_turret .prefab using Guid(0daf28ee2694cb84994610a78348c1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afeb06504139af903e79f3cbc9cf0d1c') in 0.008709 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.184378 seconds.
+  path: Assets/Prefabs/Turrets/Ultra_missile_turret .prefab
+  artifactKey: Guid(0daf28ee2694cb84994610a78348c1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Ultra_missile_turret .prefab using Guid(0daf28ee2694cb84994610a78348c1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15be456a056e3217d11e6eae84db5ec') in 0.008431 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 2.015119 seconds.
+  path: Assets/Prefabs/Turrets/Ultra_missile_turret .prefab
+  artifactKey: Guid(0daf28ee2694cb84994610a78348c1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Ultra_missile_turret .prefab using Guid(0daf28ee2694cb84994610a78348c1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14311cfa9a130388fed93f246bd08c80') in 0.012056 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 1.193721 seconds.
+  path: Assets/Prefabs/Turrets/Ultra_missile_turret .prefab
+  artifactKey: Guid(0daf28ee2694cb84994610a78348c1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Ultra_missile_turret .prefab using Guid(0daf28ee2694cb84994610a78348c1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acacb6bc114a0cc4712e218834c12d9e') in 0.009741 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 2.814584 seconds.
+  path: Assets/Prefabs/Turrets/Ultra_missile_turret .prefab
+  artifactKey: Guid(0daf28ee2694cb84994610a78348c1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Turrets/Ultra_missile_turret .prefab using Guid(0daf28ee2694cb84994610a78348c1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7d9248dbaa430f61fa59be091e62e2') in 0.014425 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.914 seconds
+Refreshing native plugins compatible for Editor in 3.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.890 seconds
+Domain Reload Profiling:
+	ReloadAssembly (343ms)
+		BeginReloadAssembly (264ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		LoadAllAssembliesAndSetupDomain (572ms)
+			LoadAssemblies (234ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (391ms)
+				TypeCache.Initialize (219ms)
+					TypeCache.ScanAssembly (214ms)
+				ResolveRequiredComponents (5ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (393ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2439 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (34.9 KB). Loaded Objects now: 2950.
+Memory consumption went from 394.8 MB to 394.8 MB.
+Total: 4.324200 ms (FindLiveObjects: 0.411200 ms CreateObjectMapping: 0.079300 ms MarkObjects: 3.762500 ms  DeleteObjects: 0.069700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
